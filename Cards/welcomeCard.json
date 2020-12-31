@@ -5,7 +5,7 @@
   "body": [
     {
       "type": "Image",
-      "url": "https://imagercogfiles.blob.core.windows.net/image/WhatsApp%20Image%202020-08-16%20at%2016.07.50.jpg",
+      "url": "https://stginterviewchatbotaue.blob.core.windows.net/blob-interviewchatbot/Shreya.jpg",
       "size": "stretch"
     },
     {
@@ -32,6 +32,11 @@
       "type": "Action.OpenUrl",
       "title": "Look me up on linkedIn",
       "url": "https://www.linkedin.com/in/shreyosi-chakraborty-68a71720/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Download my resume",
+      "url": "https://stginterviewchatbotaue.blob.core.windows.net/blob-interviewchatbot/Shreyosi%20Chakraborty.docx"
     }
   ]
 }
