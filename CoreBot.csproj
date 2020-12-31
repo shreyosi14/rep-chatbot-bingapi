@@ -10,7 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Cards\welcomeCard.json" />
+    <EmbeddedResource Include="Cards\welcomeCard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
