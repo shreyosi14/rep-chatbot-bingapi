@@ -1,0 +1,37 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://imagercogfiles.blob.core.windows.net/image/WhatsApp%20Image%202020-08-16%20at%2016.07.50.jpg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Hello! I am Shreya Bot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Please select from the following options.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+
+    {
+      "type": "Action.OpenUrl",
+      "title": "Look me up on linkedIn",
+      "url": "https://www.linkedin.com/in/shreyosi-chakraborty-68a71720/"
+    }
+  ]
+}
